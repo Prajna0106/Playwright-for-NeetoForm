@@ -1,4 +1,6 @@
 export const FORM_TEXTS = {
+  password: "demopassword",
+  interestedQuestion: "Interested in Playwright?",
   invalidEmail: "invalidemail",
   invalidPhone: "12345",
   sampleEmail: "sample@example.com",
@@ -20,4 +22,9 @@ export const FORM_TEXTS = {
   optionsUpto10: "Option 5, Option 6, Option 7, Option 8, Option 9, Option 10",
   multipleChoice: "Multiple Choice",
   singleChoice: "Single Choice",
+  yes: "Yes",
+  no: "No",
+  show: "Show",
+  emailAddress: "Email address",
+  contains: "contains",
 };
