@@ -1,12 +1,12 @@
 import { test as base } from "@playwright/test";
 import LoginPage from "../poms/login";
-import Task1Page from "../poms/task1";
+import FormCreationValidationAnalytics from "../poms/formCreationValidationAnalytics.spec.ts";
 import Task2Page from "../poms/task2";
 import Task3Page from "../poms/task3";
 
 interface ExtendedFixtures {
   loginPage: LoginPage;
-  task1Page: Task1Page;
+  formCreationValidationAnalytics: FormCreationValidationAnalytics;
   task2Page: Task2Page;
   task3Page: Task3Page;
 }
@@ -17,8 +17,8 @@ export const test = base.extend<ExtendedFixtures>({
     await use(loginPage);
   },
 
-  task1Page: async ({ page }, use) => {
-    const task1Page = new Task1Page(page);
+  formCreationValidationAnalytics: async ({ page }, use) => {
+    const task1Page = new FormCreationValidationAnalytics(page);
     await use(task1Page);
   },
 
