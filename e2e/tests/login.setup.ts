@@ -1,5 +1,5 @@
 import { test } from "../fixtures";
-import { STORAGE_STATE } from "../../playwright.config";
+import { STORAGE_STATE } from "../constants/texts";
 
 test.describe("Login page", () => {
   test("should login to home page with correct credentials.", async ({

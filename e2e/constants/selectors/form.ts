@@ -97,4 +97,6 @@ export const FORM_SELECTORS = {
   addOptionLink: "add-option-link",
   submittedResponse1: "submitted-response-1",
   viewSubmission1Button: "view-submission-1-button",
+  deleteFormButton: "delete-button",
+  moreActionsDropdown: "more-actions-dropdown",
 };
